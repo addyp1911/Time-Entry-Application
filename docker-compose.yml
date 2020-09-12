@@ -1,0 +1,13 @@
+version: '3.4'
+
+services:
+  api:
+    image: time-entry
+    build:
+      context: .
+      dockerfile: Dockerfile
+    command: python manage.py runserver 0.0.0.0:8080
+    volumes: 
+      - .:/app
+    ports:
+      - 8080:8080
