@@ -8,7 +8,7 @@ media/
 
 
 # Distribution / packaging
-proj.env
+# proj.env
 .Python
 env/
 build/
