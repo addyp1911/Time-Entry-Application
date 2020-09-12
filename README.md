@@ -10,8 +10,8 @@ Authentication
 Time entry
 - [x] Can add time entry
 - [x] Can track time spent on a task and stop a time entry tracking
-- [x] Can list time entries
-- [x] Delete time entry
+- [x] Can list time entries for all tasks
+- [x] Can list all time entries for a chosen task.
 
 Task
 - [x] Can add tasks with name, project and timestamp
